@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "code tren lop", "code tren lop\code tren lop.vcxproj", "{D82FC030-B723-47DD-91FA-04B758C4D706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Debug|x64.ActiveCfg = Debug|x64
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Debug|x64.Build.0 = Debug|x64
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Debug|x86.ActiveCfg = Debug|Win32
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Debug|x86.Build.0 = Debug|Win32
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Release|x64.ActiveCfg = Release|x64
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Release|x64.Build.0 = Release|x64
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Release|x86.ActiveCfg = Release|Win32
+		{D82FC030-B723-47DD-91FA-04B758C4D706}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65D7B3D4-6431-492A-8CE2-4C83D98A4A4E}
+	EndGlobalSection
+EndGlobal
