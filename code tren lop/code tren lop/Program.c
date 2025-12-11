@@ -38,7 +38,7 @@ void sapXepPhanTuMang1Chieu()
 		}
 	}
 	printf("xuat du lieu mang %d phan tu giam dan\n", length);
-	for (i = length - 1; i > -1; i--)
+	for (i = length - 1;i > -1;  i--)
 	{
 		printf("mang[%d] = %d\n", i, integerArray[i]);
 	}
@@ -87,6 +87,66 @@ void deMoMang2Chieu()
 		printf("\n");
 	}
 }
+void deMoString()
+{
+	char mangKyTu[50];
+//fgets mangkytu	
+
+	while (getchar() != '\n')
+
+    printf("nhap du lieu ky tu: ");
+    printf("nhap du lieu ky tu: ");
+	
+
+	fgets(mangKyTu, sizeof(mangKyTu), stdin);
+
+	printf("%s", mangKyTu);
+
+	printf("\n");
+	
+	printf("String Length:");
+	printf("%d",strlen(mangKyTu)-1);
+	printf("\n");
+
+	printf("String Compare The Same As:");
+	printf("%d", strcmp("aBc","aBc"));
+	printf("\n");
+	printf("String Compare Less Than:");
+	printf("%d", strcmp("A","B"));
+	printf("\n");
+	printf("String Compare Greater Than:");
+	printf("%d", strcmp("B","A"));
+	printf("\n");
+
+	printf("String Reverse:(Encryption)");
+	printf("%s", _strrev(mangKyTu));
+	printf("\n");
+	printf("String Reverse:(cryption)");
+	printf("String Reverse:(DEcryption)");
+	printf("%s", _strrev(mangKyTu));
+	printf("\n");
+
+	/*printf("String Lower ");
+	printf("%s", _strlwr(mangKyTu));
+	printf("\n");
+
+	printf("String Upper ");
+	printf("%s", _strupr(mangKyTu));
+	printf("\n");
+
+	printf("Find String in string ");
+	if (strstr(mangKyTu, "A") != NULL)
+	{
+			printf("Found:");
+			printf("%s", strstr(mangKyTu, "A"));
+	}
+	else
+	{
+		printf("NOT FOUND");
+
+	}
+	printf("\n");*/
+}
 
 void lapChucNang(int chonChucNang)
 {
@@ -106,6 +166,12 @@ void lapChucNang(int chonChucNang)
 			break;
 		case 4:
 			deMoMang2Chieu();
+			break;
+		case 5:
+			deMoString();
+			break;
+		case 7:
+			mangKyTu();
 			break;
 		case 0:
 			return;
@@ -136,7 +202,10 @@ int main()
 		printf("\n");
 		printf("4.mang 2 chieu ");
 		printf("\n");
-		printf("Hay chon CN [0-4]: ");
+		printf("5.de mo string ");
+		printf("6.3");
+		printf("\n");
+		printf("Hay chon CN [0-5]: ");
 		scanf("%d", &chonChucNang);
 		lapChucNang(chonChucNang);
 	} while (chonChucNang != 0);
